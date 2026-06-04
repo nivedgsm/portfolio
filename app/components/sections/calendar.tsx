@@ -8,6 +8,7 @@ export default function BookingSection() {
   useEffect(() => {
     (async function () {
       const cal = await getCalApi();
+
       cal("ui", {
         theme: "dark",
         styles: {
@@ -20,7 +21,10 @@ export default function BookingSection() {
   }, []);
 
   return (
-    <section  id="contact" className="relative z-10 px-6 py-24 md:px-12 lg:px-16 md:py-32">
+    <section
+      id="contact"
+      className="relative z-10 px-5 py-24 md:px-10 md:py-32"
+    >
       <div className="mx-auto max-w-7xl">
 
         {/* LABEL */}
@@ -51,46 +55,55 @@ export default function BookingSection() {
             money on the{" "}
             <span className="text-lime-400">table?</span>
           </h2>
+
           <p className="mt-5 max-w-lg text-sm font-light leading-relaxed text-white/40 md:text-base">
             Let's discuss how a conversion-focused website can help
             your business generate more leads and sales.
           </p>
         </motion.div>
 
-        {/* CALENDAR CARD */}
+        {/* CALENDAR */}
         <motion.div
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, delay: 0.2 }}
-  viewport={{ once: true }}
-  className="
-    overflow-hidden
-    rounded-[28px]
-    border
-    border-white/[0.07]
-    bg-white/[0.02]
-  "
->
-
-  <div className="h-[950px] w-full">
-
-    <Cal
-      calLink="nived-gsm-gi1ag2/30-minute-discovery-call"
-      style={{
-        width: "100%",
-        height: "100%",
-        border: "none",
-        overflow: "hidden",
-      }}
-      config={{
-        layout: "month_view",
-        theme: "dark",
-      }}
-    />
-
-  </div>
-
-</motion.div>
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="
+            overflow-hidden
+            rounded-[28px]
+            border
+            border-white/[0.07]
+            bg-white/[0.02]
+          "
+        >
+          <div
+            className="
+              w-full
+              h-[820px]
+              md:h-[950px]
+              overflow-y-auto
+              overscroll-contain
+              touch-pan-y
+            "
+            style={{
+              WebkitOverflowScrolling: "touch",
+            }}
+          >
+            <Cal
+              calLink="nived-gsm-gi1ag2/30-minute-discovery-call"
+              style={{
+                width: "100%",
+                height: "100%",
+                border: "none",
+                overflow: "visible",
+              }}
+              config={{
+                theme: "dark",
+                layout: "month_view",
+              }}
+            />
+          </div>
+        </motion.div>
 
       </div>
     </section>
