@@ -9,7 +9,7 @@ const clients = [
     name: "Aviation Training Academy",
     category: "Aviation",
     image: "/project/akhurathaviation.png",
-    url: "https://https://akhurathaviationandaerospace.com/",
+    url: "https://akhurathaviationandaerospace.com/",
     description:
       "A premium digital experience focused on credibility, student acquisition, and lead generation.",
   },
@@ -118,12 +118,13 @@ export default function ClientShowcase() {
                 >
                   {/* IMAGE */}
                   <div className="relative aspect-[16/10] overflow-hidden">
-                    <Image
-                      src={client.image}
-                      alt={client.name}
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-[1.06]"
-                    />
+                   <Image
+  src={client.image}
+  alt={client.name}
+  fill
+  sizes="(max-width: 768px) 100vw, 50vw"
+  className="object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+/>
                     <div className="absolute inset-0 bg-gradient-to-t from-[#09090b] via-[#09090b]/40 to-transparent transition-opacity duration-400 group-hover:opacity-70" />
 
                     {/* Category badge */}
