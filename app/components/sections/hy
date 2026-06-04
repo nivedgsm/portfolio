@@ -1,0 +1,66 @@
+// "use client";
+
+// import { motion } from "framer-motion";
+// import BackgroundGrid from "../elements/background-grid";
+
+// export default function Hero() {
+//   return (
+//     <section className="relative overflow-hidden">
+
+//       {/* GRID BACKGROUND */}
+//       <BackgroundGrid />
+
+//       {/* CONTENT */}
+//       <div className="relative z-10 flex flex-col items-center justify-center px-6 pt-28 pb-40 text-center">
+
+//         <motion.div
+//           initial={{ opacity: 0, y: 30 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.7 }}
+//           className="flex flex-col items-center"
+//         >
+
+//           {/* TOP TAG — matches AboutSection pill style */}
+//           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-[11px] uppercase tracking-widest text-white/40">
+//             <span className="size-1.5 rounded-full bg-lime-400" />
+//             Conversion Focused Websites
+//           </div>
+
+//           {/* HEADING — matches AboutSection font + weight */}
+// <h1 className="font-[Syne] max-w-5xl text-5xl font-bold leading-[1.06] tracking-tight sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[6.5rem] xl:leading-[0.95]">                 Websites That
+//             <br />
+//             Convert Visitors
+//             <br />
+//             Into{" "}
+//             <span className="text-lime-400">
+//               Clients
+//             </span>
+//           </h1>
+
+//           {/* SUBTEXT */}
+//           <p className="mx-auto mt-7 max-w-md text-sm font-light leading-relaxed text-white/45 md:text-base">
+//             Helped businesses generate over{" "}
+//             <span className="font-medium text-white">$2M+ in revenue</span>{" "}
+//             through conversion-focused digital experiences.
+//           </p>
+
+//           {/* DIVIDER — matches AboutSection divider */}
+//           <div className="my-7 h-px w-10 bg-white/10" />
+
+//           {/* BUTTONS */}
+//           <div className="flex flex-wrap items-center justify-center gap-3">
+//             <button className="rounded-full border border-white/10 bg-white/[0.025] px-8 py-4 text-sm text-white backdrop-blur-md transition hover:bg-white/[0.06]">
+//               View Work
+//             </button>
+//             <button className="green-glow rounded-full bg-lime-400 px-8 py-4 text-sm font-semibold text-black transition hover:scale-105">
+//               Book a Call
+//             </button>
+//           </div>
+
+//         </motion.div>
+
+//       </div>
+
+//     </section>
+//   );
+// }
