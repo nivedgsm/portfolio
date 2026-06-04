@@ -8,7 +8,7 @@ const clients = [
   {
     name: "Aviation Training Academy",
     category: "Aviation",
-    image: "/projects/akhurathaviation.png",
+    image: "/project/akhurathaviation.png",
     url: "https://https://akhurathaviationandaerospace.com/",
     description:
       "A premium digital experience focused on credibility, student acquisition, and lead generation.",
@@ -16,7 +16,7 @@ const clients = [
   {
     name: "Luxury Charter Service",
     category: "Private Aviation",
-    image: "/projects/akhurathzenith.png",
+    image: "/project/akhurathzenith.png",
     url: "https://akhurathzenithsolutions.com/",
     description:
       "A high-end web experience aligned with the premium nature of private aviation clientele.",
@@ -24,7 +24,7 @@ const clients = [
   {
     name: "Media Production House",
     category: "Production",
-    image: "/projects/gsm.png",
+    image: "/project/gsm.png",
     url: "https://globalstudiomedia.com/",
     description:
       "A cinematic digital presence showcasing creative work and brand storytelling at its finest.",
@@ -32,7 +32,7 @@ const clients = [
   {
     name: "E-Commerce Brand",
     category: "E-Commerce",
-    image: "/projects/shonenkits.png",
+    image: "/project/shonenkits.png",
     url: "https://shonenkits.in/",
     description:
       "A conversion-focused storefront built for customer engagement and seamless online sales.",
