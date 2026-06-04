@@ -8,32 +8,32 @@ const clients = [
   {
     name: "Aviation Training Academy",
     category: "Aviation",
-    image: "/akhurathaviation.png",
-    url: "https://akhurathaviationacademy.com",
+    image: "/projects/akhurathaviation.png",
+    url: "https://https://akhurathaviationandaerospace.com/",
     description:
       "A premium digital experience focused on credibility, student acquisition, and lead generation.",
   },
   {
     name: "Luxury Charter Service",
     category: "Private Aviation",
-    image: "/akhurathzenith.png",
-    url: "https://akhurathzenith.com",
+    image: "/projects/akhurathzenith.png",
+    url: "https://akhurathzenithsolutions.com/",
     description:
       "A high-end web experience aligned with the premium nature of private aviation clientele.",
   },
   {
     name: "Media Production House",
     category: "Production",
-    image: "/gsm.png",
-    url: "https://your-production-site.com",
+    image: "/projects/gsm.png",
+    url: "https://globalstudiomedia.com/",
     description:
       "A cinematic digital presence showcasing creative work and brand storytelling at its finest.",
   },
   {
     name: "E-Commerce Brand",
     category: "E-Commerce",
-    image: "/shonenkits.png",
-    url: "https://your-store.com",
+    image: "/projects/shonenkits.png",
+    url: "https://shonenkits.in/",
     description:
       "A conversion-focused storefront built for customer engagement and seamless online sales.",
   },
